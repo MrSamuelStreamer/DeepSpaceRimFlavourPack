@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainAffordanceDef>
+    <defName>MSS_GravSpace</defName>
+    <label>Gravspace</label>
+    <order>2400</order>
+  </TerrainAffordanceDef> 
+
+  <TerrainDef ParentName="NaturalTerrainBase">
+    <defName>MSS_GravSpace</defName>
+    <label>Gravspace</label>
+    <uiIconPath>MSSGravSpace</uiIconPath>
+    <cropIcon>false</cropIcon>
+    <designationCategory>Odyssey</designationCategory>
+    <terrainAffordanceNeeded>Platform</terrainAffordanceNeeded>
+    <description>Gravspace is the navigable, stabilised area of space that occurs in the presence of a grav-core powered structure. Pawns can use their momentum or in-built Vacsuit propulsion to slowly drift through it.</description>
+    <fertility>0</fertility>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>300</renderPrecedence>
+    <dontRender>true</dontRender>
+    <exposesToVacuum>true</exposesToVacuum>
+    <layerable>false</layerable>
+    <pathCost>20</pathCost>
+    <avoidWander>true</avoidWander>
+    <holdSnowOrSand>false</holdSnowOrSand>
+    <preventCraters>true</preventCraters>
+    <designationCategory />
+    <terrainAffordanceNeeded>Walkable</terrainAffordanceNeeded>
+    <filthAcceptanceMask>
+      <li>None</li>
+    </filthAcceptanceMask>
+    <statBases>
+      <Flammability>0</Flammability>
+      <WorkToBuild>1000</WorkToBuild>
+    </statBases>
+    <tags>
+      <li>Space</li>
+    </tags>
+    <affordances>
+      <li>Bridgeable</li>
+      <li>GravSpace</li>
+      <li MayRequire="rashomcree.odyssey.orbitalplatforms">VoidSpace</li>
+    </affordances>
+    <terrainAffordanceNeeded MayRequire="rashomcree.odyssey.orbitalplatforms">VoidSpace</terrainAffordanceNeeded>
+    <spaceEdgeGraphicData IsNull="True" />
+    <canBePolluted>false</canBePolluted>
+  </TerrainDef>
+</Defs>
