@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+      <!-- Hussar to Jem'Hussar -->
+      <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="Hussar"]/label</xpath>
+        <value>
+          <label>Jem'Hussar</label>
+        </value>
+      </Operation>
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/XenotypeDef[defName="Hussar"]/genes</xpath>
+        <value>
+          <li>Skin_LightGray</li>
+          <li>Hair_BaldOnly</li>
+          <li>Headbone_MiniHorns</li> 
+          <li>AG_Male</li>
+          <li>FacialRidges</li>
+          <li>AG_RockSpurs</li>
+          <li>Jaw_Heavy</li>
+          <li>Eyes_Gray</li>
+          <li>Hair_Gray</li>
+        </value>
+      </Operation>
+      <!-- Saurids to Sauridassians -->
+      <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="VRESaurids_Saurid"]/label</xpath>
+        <value>
+          <label>Sauridassian</label>
+        </value>
+      </Operation>
+      <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="VRESaurids_Saurid"]/genes/li[text()="Aggression_Aggressive"]</xpath>
+      </Operation>
+      <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="VRESaurids_Saurid"]/genes/li[text()="Skin_Blue"]</xpath>
+      </Operation>
+      <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="VRESaurids_Saurid"]/genes/li[text()="Skin_Green"]</xpath>
+      </Operation>
+      <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="VRESaurids_Saurid"]/genes/li[text()="VRESaurids_GeckoTail"]</xpath>
+      </Operation>
+      <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="VRESaurids_Saurid"]/genes/li[text()="VRESaurids_CenterFrill"]</xpath>
+      </Operation>
+      <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="VRESaurids_Saurid"]/genes/li[text()="VRESaurids_FrilledEars"]</xpath>
+      </Operation>
+      <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="VRESaurids_Saurid"]/genes/li[text()="Body_Hulk"]</xpath>
+      </Operation>
+      <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="VRESaurids_Saurid"]/genes/li[text()="Body_Thin"]</xpath>
+      </Operation>
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/XenotypeDef[defName="VRESaurids_Saurid"]/genes</xpath>
+        <value>
+          <li>Hair_ShortOnly</li>
+          <li>Hair_InkBlack</li>
+          <li>AptitudeRemarkable_Social</li>
+          <li>AG_Enforcer</li>
+          <li>Aggression_DeadCalm</li>
+          <li>Brow_Heavy</li>
+        </value>
+      </Operation>
+      <!-- Genie to Vulcan -->
+      <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="Genie"]/label</xpath>
+        <value>
+          <label>Vulcenie</label>
+        </value>
+      </Operation>
+      <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="Genie"]/genes/li[text()="VRE_ElongatedHead"]</xpath>
+      </Operation>
+      <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="Genie"]/genes/li[text()="Hair_BaldOnly"]</xpath>
+      </Operation>
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/XenotypeDef[defName="Genie"]/genes</xpath>
+        <value>
+          <li>Ears_Pointed</li>
+          <li>Hair_MidBlack</li>
+          <li>Hair_ShortOnly</li>
+          <li>AG_Mood_Unfeeling</li>
+          <li>AG_ExtraordinaryLifespan</li>
+        </value>
+      </Operation>
+      <!-- Misc -->
+      <Operation Class="PatchOperationAdd" MayRequire="nalzurin.viltrumitexenotype">
+        <xpath>/Defs/XenotypeDef[defName="Viltrumite"]/genes</xpath>
+        <value>
+          <li>AG_ExtraordinaryLifespan</li>
+          <li>VacuumResistance_Total</li>
+        </value>
+      </Operation>
+</Patch>

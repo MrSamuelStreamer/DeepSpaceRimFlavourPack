@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Deep Space Rim Flavour Pack</name>
+    <author>MrSamuelStreamer</author>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <packageId>MSS.DSR</packageId>
+    <description>A flavour pack for Mr Samuel Streamer's Rimworld Playthroughs</description>
+    <url>https://steamcommunity.com/id/MrSamuelStreamer/myworkshopfiles/?appid=294100</url>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+        <li>Ludeon.RimWorld.Anomaly</li>
+        <li>Ludeon.RimWorld.Odyssey</li>
+        <li>redmattis.bigsmall.core</li>
+        <li>vanillaexpanded.achievements</li>
+        <li>Aoba.Fortress.Industrial.Citadel</li>
+        <li>Azazellz.TransportShuttleStandalone</li>
+        <li>oskarpotocki.vanillafactionsexpanded.core</li>
+        <li>det.keshig</li>
+        <li>det.venators</li>
+        <li>vanillaracesexpanded.hussar</li>
+        <li>vanillaracesexpanded.saurid</li>
+        <li>vanillaracesexpanded.genie</li>
+        <li>MSS.FlavourPack</li>
+        <li>nalzurin.viltrumitexenotype</li>
+    </loadAfter>
+</ModMetaData>

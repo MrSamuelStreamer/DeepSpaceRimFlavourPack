@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TattooDef>
+		<defName>MSS_Bajor</defName>
+		<label>Bajor</label>
+		<texPath>Things/Pawn/Humanlike/Tattoos/Face_Bajor/TatooBajor</texPath>
+		<tattooType>Face</tattooType>
+		<category>Misc</category>
+		<visibleNorth>true</visibleNorth>
+		<styleTags>
+			<li>TattooFaceMisc</li>
+		</styleTags>
+	</TattooDef>
+</Defs>
