@@ -25,7 +25,6 @@
     <avoidWander>true</avoidWander>
     <holdSnowOrSand>false</holdSnowOrSand>
     <preventCraters>true</preventCraters>
-    <designationCategory />
     <terrainAffordanceNeeded>Walkable</terrainAffordanceNeeded>
     <filthAcceptanceMask>
       <li>None</li>
@@ -47,3 +46,4 @@
     <canBePolluted>false</canBePolluted>
   </TerrainDef>
 </Defs>
+
