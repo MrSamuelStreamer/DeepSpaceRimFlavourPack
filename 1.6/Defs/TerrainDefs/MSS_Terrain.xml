@@ -21,7 +21,7 @@
     <dontRender>true</dontRender>
     <exposesToVacuum>true</exposesToVacuum>
     <layerable>false</layerable>
-    <pathCost>20</pathCost>
+    <pathCost>50</pathCost>
     <avoidWander>true</avoidWander>
     <holdSnowOrSand>false</holdSnowOrSand>
     <preventCraters>true</preventCraters>
