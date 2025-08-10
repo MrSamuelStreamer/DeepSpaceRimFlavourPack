@@ -29,7 +29,7 @@
     </filthAcceptanceMask>
     <statBases>
       <Flammability>0</Flammability>
-      <WorkToBuild>1000</WorkToBuild>
+      <WorkToBuild>50</WorkToBuild>
     </statBases>
     <tags>
       <li>Space</li>

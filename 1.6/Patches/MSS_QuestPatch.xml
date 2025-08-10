@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/QuestScriptDef[defName="Hospitality_Prisoners"]/root/nodes</xpath>
+        <value>
+          <li Class="QuestNode_GetMap">
+            <canBeSpace>true</canBeSpace>
+          </li>
+        </value>
+      </Operation>
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/QuestScriptDef[defName="Hospitality_Prisoners"]</xpath>
+        <value>
+          <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>
+        </value>
+      </Operation>
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/QuestScriptDef[defName="Hospitality_Prisoners"]</xpath>
+        <value>
+          <everAcceptableInSpace>true</everAcceptableInSpace>
+        </value>
+      </Operation>
+</Patch>
