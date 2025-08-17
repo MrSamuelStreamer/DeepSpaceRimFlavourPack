@@ -6,6 +6,7 @@
       <rulesStrings>
         <li>r_name->[number] of [numberlarge]</li>
         <li>r_name->[numbersmall] of [numbersmallsuffix]</li>
+        <li>r_name(p=0.0)->[presetName]</li>
 
         <li>number->1</li>
         <li>number->2</li>
