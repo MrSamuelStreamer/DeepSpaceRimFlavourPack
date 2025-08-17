@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerFactionMSSCyborg</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[numadjective] [matrix] [number]</li>
+
+        <li>matrix->Unicomplex</li>
+        <li>matrix->Adjunct</li>
+        <li>matrix->Nexus</li>
+        <li>matrix->Unimatrix</li>
+
+        <li>numadjective->Primary</li>
+        <li>numadjective->Secondary</li>
+        <li>numadjective->Tertiary</li>
+        <li>numadjective->Quaternary</li>
+        <li>numadjective->Quinary</li>
+        <li>numadjective->Senary</li>
+        <li>numadjective->Septenary</li>
+        <li>numadjective->Octonary</li>
+        <li>numadjective->Nonary</li>
+
+        <li>number->001</li>
+        <li>number->002</li>
+        <li>number->003</li>
+        <li>number->004</li>
+        <li>number->005</li>
+        <li>number->006</li>
+        <li>number->007</li>
+        <li>number->008</li>
+        <li>number->009</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>groupname->Words/Nouns/GroupNames</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+</Defs>

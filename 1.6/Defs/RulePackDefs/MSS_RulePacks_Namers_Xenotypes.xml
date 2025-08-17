@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RulePackDef>
+    <defName>MSSNamerCyborg</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[number] of [numberlarge]</li>
+        <li>r_name->[numbersmall] of [numbersmallsuffix]</li>
+
+        <li>number->1</li>
+        <li>number->2</li>
+        <li>number->3</li>
+        <li>number->4</li>
+        <li>number->5</li>
+        <li>number->6</li>
+        <li>number->7</li>
+        <li>number->8</li>
+        <li>numberlarge->9</li>
+        <li>numberlarge->10</li>
+        <li>numberlarge->11</li>
+        <li>numberlarge->12</li>
+        <li>numberlarge->13</li>
+        <li>numberlarge->14</li>
+        <li>numberlarge->15</li>
+        <li>numberlarge->16</li>
+        <li>numberlarge->17</li>
+        <li>numberlarge->18</li>
+        <li>numberlarge->19</li>
+        <li>numbersmall->1</li>
+        <li>numbersmall->2</li>
+        <li>numbersmall->3</li>
+        <li>numbersmall->4</li>
+        <li>numbersmallsuffix->5</li>
+        <li>numbersmallsuffix->6</li>
+        <li>numbersmallsuffix->7</li>
+        <li>numbersmallsuffix->8</li>
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

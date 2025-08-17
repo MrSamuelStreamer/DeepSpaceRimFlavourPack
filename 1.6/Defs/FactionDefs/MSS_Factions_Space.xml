@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef ParentName="FactionBase">
+    <defName>MSS_Cyborg</defName>
+    <label>Cyborg</label>
+    <factionNameMaker>NamerFactionMSSCyborg</factionNameMaker>
+    <description>A semi-mythical faction of human cyborgs that search worlds for valuable technology to absorb into their Cyborg hivemind. It is said that a single touch from their mechanical limbs can transform their victims into more cyborg through nanomachines. The are only found in space.</description>
+    <hidden>true</hidden>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <displayInFactionSelection>false</displayInFactionSelection>
+    <hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
+    <arrivalLayerWhitelist>
+      <li>Orbit</li>
+    </arrivalLayerWhitelist>
+    <colorSpectrum>
+      <li>(0.55, 0.29, 0.21)</li>
+    </colorSpectrum>
+    <pawnSingular>Borg</pawnSingular>
+    <pawnsPlural>Borg</pawnsPlural>
+    <leaderTitle>Hivemind</leaderTitle>
+    <categoryTag>Salvager</categoryTag>
+    <configurationListOrderPriority>1000</configurationListOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <factionIconPath>World/WorldObjects/Expanding/MSS_Cyborg</factionIconPath>
+    <techLevel>Spacer</techLevel>
+    <canRequestTraders>false</canRequestTraders>
+    <canRequestOrbitalTrader>false</canRequestOrbitalTrader>
+    <canRequestMilitaryAid>false</canRequestMilitaryAid>
+    <canGenerateQuestSites>false</canGenerateQuestSites>
+    <hiddenIdeo>true</hiddenIdeo>
+    <permanentEnemy>true</permanentEnemy>
+    <fixedLeaderKinds>
+      <li>Salvager_Elite</li>
+    </fixedLeaderKinds>
+    <layerWhitelist>
+      <li>Orbit</li>
+    </layerWhitelist>
+    <allowedCultures>
+      <li>Astropolitan</li>
+    </allowedCultures>
+    <styles>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Techist</li>
+    </styles>
+    <forcedMemes>
+      <li>Shipborn</li>
+      <li MayRequire="vanillaexpanded.vmemese">VME_Gestalt</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+    </forcedMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+    </disallowedMemes>
+    <structureMemeWeights>
+      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+      <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">10</Structure_Archist>
+    </structureMemeWeights>
+    <xenotypeSet>
+      <xenotypeChances>
+        <MSS_Cyborg>1</MSS_Cyborg>
+      </xenotypeChances>
+    </xenotypeSet>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>0.9</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.1</commonality>
+      </li>
+    </backstoryFilters>
+    <caravanTraderKinds />
+    <visitorTraderKinds />
+    <orbitalTraderKinds />
+    <baseTraderKinds />
+    <allowedArrivalTemperatureRange>-85~45</allowedArrivalTemperatureRange>
+    <raidLootMaker>TradersGuildRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li> 
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <arrivalModeWhitelist>
+      <li>EdgeDrop</li>
+      <li>EdgeDropGroups</li>
+      <li>CenterDrop</li>
+      <li>RandomDrop</li>
+    </arrivalModeWhitelist>
+    <pawnGroupMakers Inherit="False">
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <Salvager_Pirate>20</Salvager_Pirate>     <!-- Maybe custom one day, not super relevant now, can override with total control -->
+          <Salvager_Scrapper>5</Salvager_Scrapper>
+          <Salvager_Elite>1</Salvager_Elite>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Salvager_Pirate>10</Salvager_Pirate>
+      </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Salvager_Pirate>10</Salvager_Pirate>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+
+</Defs>
