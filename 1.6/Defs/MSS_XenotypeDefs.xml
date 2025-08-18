@@ -6,7 +6,7 @@
     <description>The Cyborgs are a hivemind of twisted mechanite-laden humans that share a singular goal of improving themselves by stealing genetic information and technology from other space-faring races. Their internal biology has been adapted to remove all biological redundancies and optimised for efficient work and conquest. It is rumoured that Mechanoids were originally designed as a method to fight the Cyborgs as a single touch from their nanobot infused limbs can infect a human and attach them permanently to the Cyborg hivemind.</description>
     <descriptionShort>The armoured, mechanite powered Cyborgs are a hivemind of conquered civilisations that now work towards the goal of acquiring optimal genes and technology from other civilisations. They can infect humans on touch and turn them into drones of the hivemind.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/Custom/Sanguophage_2</iconPath>
-    <inheritable>true</inheritable>
+    <inheritable>false</inheritable>
     <nameMaker>MSSNamerCyborg</nameMaker>
     <nameMakerFemale>MSSNamerCyborg</nameMakerFemale>
     <chanceToUseNameMaker>1</chanceToUseNameMaker>
@@ -53,6 +53,9 @@
       <li>Hair_BaldOnly</li>
       <li>Beard_NoBeardOnly</li>
       <li>Skin_SlateGray</li>
+      <li MayRequire="vanillaracesexpanded.fungoid">VRE_GeneInfector</li>
+      <li MayRequire="vanillaracesexpanded.fungoid">VRE_Telepathy</li>
+      <li MayRequire="lazyfridaystudio.genesexpandedskin">GES_Skin_StormCloud</li>
     </genes>
   </XenotypeDef>
 </Defs>
