@@ -3,17 +3,13 @@
   <Operation Class="PatchOperationAdd">
       <xpath>/Defs/ThingDef[defName="REN7_Apparel_N7HeavyHelmet"]/equippedStatOffsets</xpath>
       <value>
-        <equippedStatOffsets>
-          <VacuumResistance>0.69</VacuumResistance>
-        </equippedStatOffsets>
+        <VacuumResistance>0.69</VacuumResistance>
       </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
       <xpath>/Defs/ThingDef[defName="REN7_Apparel_N7Helmet"]/equippedStatOffsets</xpath>
       <value>
-        <equippedStatOffsets>
-          <VacuumResistance>0.69</VacuumResistance>
-        </equippedStatOffsets>
+        <VacuumResistance>0.69</VacuumResistance>
       </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
@@ -43,3 +39,4 @@
   </Operation>
 
 </Patch>
+
