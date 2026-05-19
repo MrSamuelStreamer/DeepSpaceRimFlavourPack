@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Ensign -->
+    <RocketsRanks.RankDef>
+        <defName>MSS_Rank_Ensign</defName>
+        <label>Ensign</label>
+        <description>The lowest commissioned officer rank in the Star Federation, typically assigned to graduates of the Star Federation Academy as their first role, often serving in specialised departments.</description>
+        <rankLevel>1</rankLevel>
+        <iconPath>UI/StarFederation/Ens</iconPath>
+        <pack>MSS_Pack_StarFederation</pack>
+    </RocketsRanks.RankDef>
+    <!-- Lieutenant Junior Grade -->
+    <RocketsRanks.RankDef>
+        <defName>MSS_Rank_Lieutenant_Junior</defName>
+        <label>Lieutenant, Junior Grade</label>
+        <description>A commissioned officer rank in the Star Federation, positioned directly between Ensign and full Lieutenant. </description>
+        <rankLevel>2</rankLevel>
+        <iconPath>UI/StarFederation/LtJg</iconPath>
+        <pack>MSS_Pack_StarFederation</pack>
+    </RocketsRanks.RankDef>
+    <!-- Lieutenant -->
+    <RocketsRanks.RankDef>
+        <defName>MSS_Rank_Lieutenant</defName>
+        <label>Lieutenant</label>
+        <description>A mid-level commissioned officer rank in the Star Federation, sitting above Lieutenant Junior Grade and below Lieutenant Commander.</description>
+        <rankLevel>3</rankLevel>
+        <iconPath>UI/StarFederation/Lt</iconPath>
+        <pack>MSS_Pack_StarFederation</pack>
+    </RocketsRanks.RankDef>
+    <!-- Lieutenant Commander -->
+    <RocketsRanks.RankDef>
+        <defName>MSS_Rank_Lieutenant_Commander</defName>
+        <label>Lieutenant Commander</label>
+        <description>A senior commissioned officer rank in the Star Federation, sitting above Lieutenant and below Commander.</description>
+        <rankLevel>4</rankLevel>
+        <iconPath>UI/StarFederation/LtC</iconPath>
+        <pack>MSS_Pack_StarFederation</pack>
+    </RocketsRanks.RankDef>
+    <!-- Commander -->
+    <RocketsRanks.RankDef>
+        <defName>MSS_Rank_Commander</defName>
+        <label>Commander</label>
+        <description>A high-level commissioned officer rank in the Star Federation, typically assigned to senior officers with extensive experience and responsibility. It falls between Lieutenant Commander and Captain.</description>
+        <rankLevel>5</rankLevel>
+        <iconPath>UI/StarFederation/Cdr</iconPath>
+        <pack>MSS_Pack_StarFederation</pack>
+    </RocketsRanks.RankDef>
+    <!-- Captain -->
+    <RocketsRanks.RankDef>
+        <defName>MSS_Rank_Captain</defName>
+        <label>Captain</label>
+        <description>A high-level commissioned officer rank in the Star Federation, generally assigned command of their own vessel. This rank is typical of senior officers with extensive experience and responsibility. It falls between Commander and Commodore.</description>
+        <rankLevel>6</rankLevel>
+        <iconPath>UI/StarFederation/Cpt</iconPath>
+        <pack>MSS_Pack_StarFederation</pack>
+    </RocketsRanks.RankDef>
+</Defs>

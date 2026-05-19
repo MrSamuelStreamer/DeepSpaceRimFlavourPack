@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RocketsRanks.RankPackDef>
+    <defName>MSS_Pack_StarFederation</defName>
+    <label>Star Federation</label>
+    <description>The Star Federation rank set for use with Rocket's Ranks.</description>
+  </RocketsRanks.RankPackDef>
+</Defs>

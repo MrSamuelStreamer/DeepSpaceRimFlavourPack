@@ -2,5 +2,6 @@
 <loadFolders>
 	<v1.6>
 		<li>1.6</li>
+		<li IfModActive="meltup.polyamorybeds.vanilla">Compatibility/meltup.polyamorybeds.vanilla</li>
 	</v1.6>
 </loadFolders>

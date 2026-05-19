@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+  <!-- Base game royal bed to fancy version -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="RoyalBed"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Things/Furniture/RBed2</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="RoyalBed"]/label</xpath>
+    <value>
+      <label>Floating Love Bed</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="RoyalBed"]/description</xpath>
+    <value>
+      <description>A floating heart-shaped bed fit for the finest captain's quarters and built for the most vigourous of romantic liasons.</description>
+    </value>
+  </Operation>
+  <!-- Polygamy Mod Stuff -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="TripleRoyalBed"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Things/Furniture/RBed3</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="TripleRoyalBed"]/label</xpath>
+    <value>
+      <label>Floating Triple Love Bed</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="TripleRoyalBed"]/description</xpath>
+    <value>
+      <description>A floating heart-shaped bed fit for the finest captain's quarters and built for the most vigourous of romantic liasons. This version can fit three people for the most diplomatic of menage a trois.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="QuadRoyalBed"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Things/Furniture/RBed4</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="QuadRoyalBed"]/label</xpath>
+    <value>
+      <label>Floating Quadruple Love Bed</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="QuadRoyalBed"]/description</xpath>
+    <value>
+      <description>A floating heart-shaped bed fit for the finest captain's quarters and built for the most vigourous of romantic liasons. This version can fit four people for even more engaging meeting of the minds.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="PentaRoyalBed"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Things/Furniture/RBed5</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="PentaRoyalBed"]/label</xpath>
+    <value>
+      <label>Floating Quintuple Love Bed</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="PentaRoyalBed"]/description</xpath>
+    <value>
+      <description>A floating heart-shaped bed fit for the finest captain's quarters and built for the most vigourous of romantic liasons. This version can fit five people, that even the most well traveled of captains would find challenging, yet agreeable.</description>
+    </value>
+  </Operation>
+</Patch>

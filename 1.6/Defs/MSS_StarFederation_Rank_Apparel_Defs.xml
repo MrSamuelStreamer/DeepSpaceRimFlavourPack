@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<!-- Officers only for now -->
+	<!-- Ensign -->
+	<ThingDef ParentName="ROCKET_Ranks_Officer">
+		<defName>MSS_Rank_Apparel_Ensign</defName>
+		<label>Ensign</label>
+		<description>A single gold collar pip to signify the rank of Ensign.</description>
+		<graphicData>
+			<texPath>Things/Apparel/StarFederation/Ensign/Rank</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/StarFederation/Ensign/Rank</wornGraphicPath>
+		</apparel>
+		<modExtensions Inherit="True">
+			<li Class="RocketsRanks.RankExtension">
+				<requiredRank>MSS_Rank_Ensign</requiredRank>
+			</li>
+		</modExtensions>
+		<uiOrder>20</uiOrder>
+	</ThingDef>
+	<!-- Lieutenant, Junior Grade -->
+	<ThingDef ParentName="ROCKET_Ranks_Officer">
+		<defName>MSS_Rank_Apparel_Lieutenant_Junior</defName>
+		<label>Lieutenant, Junior Grade</label>
+		<description>A gold collar pip followed by a black collar pip to signify the rank of Lieutenant, Junior Grade.</description>
+		<graphicData>
+			<texPath>Things/Apparel/StarFederation/Lieutenant_Junior/Rank</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/StarFederation/Lieutenant_Junior/Rank</wornGraphicPath>
+		</apparel>
+		<modExtensions Inherit="True">
+			<li Class="RocketsRanks.RankExtension">
+				<requiredRank>MSS_Rank_Lieutenant_Junior</requiredRank>
+			</li>
+		</modExtensions>
+		<uiOrder>21</uiOrder>
+	</ThingDef>
+	<!-- Lieutenant -->
+	<ThingDef ParentName="ROCKET_Ranks_Officer">
+		<defName>MSS_Rank_Apparel_Lieutenant</defName>
+		<label>Lieutenant</label>
+		<description>Two gold collar pips to signify the rank of Lieutenant.</description>
+		<graphicData>
+			<texPath>Things/Apparel/StarFederation/Lieutenant/Rank</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/StarFederation/Lieutenant/Rank</wornGraphicPath>
+		</apparel>
+		<modExtensions Inherit="True">
+			<li Class="RocketsRanks.RankExtension">
+				<requiredRank>MSS_Rank_Lieutenant</requiredRank>
+			</li>
+		</modExtensions>
+		<uiOrder>22</uiOrder>
+	</ThingDef>
+	<!-- Lieutenant Commander -->
+	<ThingDef ParentName="ROCKET_Ranks_Officer">
+		<defName>MSS_Rank_Apparel_Lieutenant_Commander</defName>
+		<label>Lieutenant Commander</label>
+		<description>Two gold collar pips followed by a single black collar pip to signify the rank of Lieutenant Commander.</description>
+		<graphicData>
+			<texPath>Things/Apparel/StarFederation/Lieutenant_Commander/Rank</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/StarFederation/Lieutenant_Commander/Rank</wornGraphicPath>
+		</apparel>
+		<modExtensions Inherit="True">
+			<li Class="RocketsRanks.RankExtension">
+				<requiredRank>MSS_Rank_Lieutenant_Commander</requiredRank>
+			</li>
+		</modExtensions>
+		<uiOrder>23</uiOrder>
+	</ThingDef>
+	<!-- Commander -->
+	<ThingDef ParentName="ROCKET_Ranks_Officer">
+		<defName>MSS_Rank_Apparel_Commander</defName>
+		<label>Commander</label>
+		<description>Three gold collar pips to signify the rank of Commander.</description>
+		<graphicData>
+			<texPath>Things/Apparel/StarFederation/Commander/Rank</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/StarFederation/Commander/Rank</wornGraphicPath>
+		</apparel>
+		<modExtensions Inherit="True">
+			<li Class="RocketsRanks.RankExtension">
+				<requiredRank>MSS_Rank_Commander</requiredRank>
+			</li>
+		</modExtensions>
+		<uiOrder>24</uiOrder>
+	</ThingDef>
+	<!-- Captain -->
+	<ThingDef ParentName="ROCKET_Ranks_Officer">
+		<defName>MSS_Rank_Apparel_Captain</defName>
+		<label>Captain</label>
+		<description>Four gold collar pips to signify the rank of Captain.</description>
+		<graphicData>
+			<texPath>Things/Apparel/StarFederation/Captain/Rank</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/StarFederation/Captain/Rank</wornGraphicPath>
+		</apparel>
+		<modExtensions Inherit="True">
+			<li Class="RocketsRanks.RankExtension">
+				<requiredRank>MSS_Rank_Captain</requiredRank>
+			</li>
+		</modExtensions>
+		<uiOrder>25</uiOrder>
+	</ThingDef>
+</Defs>
