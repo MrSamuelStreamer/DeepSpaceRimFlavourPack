@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropCategoryDef>
+		<defName>MSS_Prop_Category_Lovenasium</defName>
+		<label>Lovenasium</label>
+		<description>Accessories for only the most discerning Captains.</description>
+		<priority>400</priority>
+		<icon>UI/Categories/Lovenasium</icon>
+	</VFEProps.PropCategoryDef>
+</Defs>

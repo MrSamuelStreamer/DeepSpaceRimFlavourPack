@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>MSS_Lovenasium_Portrait</defName>
+		<label>Captain's Portrait</label>
+		<description>A portrait of the ship's captain, it's style is reminiscent of an old Earth figure. The subject inexplicably has six fingers on one hand.</description>
+		<graphicData>
+			<texPath>Things/Props/MSS_Crash_Portrait</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.55,3.45)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<pathCost>42</pathCost>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>MSS_Lovenasium_Statue</defName>
+		<label>Captain's Statue</label>
+		<description>A statue of the ship's captain. It appears to be cheaply carved out of imitation marble.</description>
+		<graphicData>
+			<texPath>Things/Props/MSS_Crash_Statue</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<pathCost>42</pathCost>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+</Defs>
