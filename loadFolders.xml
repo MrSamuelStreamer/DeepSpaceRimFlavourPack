@@ -5,5 +5,6 @@
 		<li IfModActive="meltup.polyamorybeds.vanilla">Compatibility/meltup.polyamorybeds.vanilla</li>
 		<li IfModActive="translucency.braininajar">Compatibility/translucency.braininajar</li>
 		<li IfModActive="vanillaexpanded.vfepropsanddecor">Compatibility/vanillaexpanded.vfepropsanddecor</li>
+		<li IfModActive="vanillaexpanded.vmemese">Compatibility/vanillaexpanded.vmemese</li>
 	</v1.6>
 </loadFolders>
