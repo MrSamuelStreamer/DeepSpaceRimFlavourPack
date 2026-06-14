@@ -36,7 +36,7 @@
 		<label>Captain's Statue</label>
 		<description>A statue of the ship's captain. It appears to be cheaply carved out of imitation marble.</description>
 		<graphicData>
-			<texPath>Things/Props/MSS_Crash_Statue_Right</texPath>
+			<texPath>Things/Props/MSS_Crash_Statue_right</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
@@ -67,7 +67,7 @@
 		<label>Captain's Statue</label>
 		<description>A statue of the ship's captain. It appears to be cheaply carved out of imitation marble.</description>
 		<graphicData>
-			<texPath>Things/Props/MSS_Crash_Statue_Left</texPath>
+			<texPath>Things/Props/MSS_Crash_Statue_left</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
