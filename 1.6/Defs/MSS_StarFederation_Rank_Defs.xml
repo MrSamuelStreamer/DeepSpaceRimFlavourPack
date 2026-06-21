@@ -54,4 +54,13 @@
         <iconPath>UI/StarFederation/Cpt</iconPath>
         <pack>MSS_Pack_StarFederation</pack>
     </RocketsRanks.RankDef>
+    <!-- RearAdmiral -->
+    <RocketsRanks.RankDef>
+        <defName>MSS_Rank_RearAdmiral</defName>
+        <label>Rear Admiral</label>
+        <description>A flag officer in the Star Federation, generally assigned to senior officers with extensive experience and responsibility. It falls between Captain and Vice Admiral.</description>
+        <rankLevel>7</rankLevel>
+        <iconPath>UI/StarFederation/RearAdmiral</iconPath>
+        <pack>MSS_Pack_StarFederation</pack>
+    </RocketsRanks.RankDef>
 </Defs>
